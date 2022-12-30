@@ -23,7 +23,7 @@ for(SearchResult result:results){
 %>
 <tr>
 <td><%out.println(result.getPageTitle());%></td>
- <td><a href="<%out.println(result.getPageLink());%>"><%out.println(result.getLink());%></a></td>
+ <td><a href="<%out.println(result.getPageLink());%>"><%out.println(result.getPageLink());%></a></td>
 </tr>
 <%
 }
